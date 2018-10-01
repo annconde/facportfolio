@@ -1,0 +1,121 @@
+*{
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+background-image: url(../images/wall.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-position: center;
+background-attachment: fixed;
+/*font-family: 'Roboto', cursive;*/
+}
+
+
+.name {
+	font-family: 'Happy Monkey', cursive;
+	font-size: 60px;
+	margin-top: 20%;
+}
+
+h1	{
+	color: #400000;
+	font-family: 'Gruppo', cursive;
+}
+
+h3 {
+	font-family: 'Gruppo', cursive;
+	color: #B51F09;
+}
+
+.me {
+height: 150px;
+width: 150px;
+border-radius: 100%;
+border-style:  outline;
+border-color: gray;
+margin-top: 40px;
+}
+
+
+.menu {
+	color: #5C1010;
+	font-family: 'Coda', cursive;
+	font-size: 20px;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.projects-image {
+    max-height: 320px;
+}
+
+.projects-image-coffee {
+    max-height: 300px;
+    width: 95%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 1rem;
+}    
+
+.wp3link {
+    display: block;
+    border-radius: 50%;
+    border: 0px solid transparent;
+    background-color: transparent;
+    overflow: hidden;
+
+/*extra small devices (portrait phones, less than 576px*/
+@media (max-width: 575.98) {
+
+}
+
+
+/*small devices (landscape phones. 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+.col-sm-4 {
+	margin-top: 200px;
+	font-size: 40px;
+}
+}
+
+/*medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.col-sm-4 {
+	margin-top: 200px;
+}
+}
+
+
+/*large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.col-sm-4 {
+	margin-top: 200px;
+}
+}
+
+
+/*extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.col-sm-4 {
+	margin-top: 200px;
+}
+}
+
+
+
+
+

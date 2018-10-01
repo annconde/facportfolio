@@ -1,0 +1,56 @@
+*{
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+background-image: url(../images/wall.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-position: center;
+background-attachment: fixed;
+/*font-family: 'Roboto', cursive;*/
+}
+
+
+.name {
+	font-family: 'Happy Monkey', cursive;
+	font-size: 60px;
+}
+
+h1 {
+	color: #400000;
+	font-family: 'Gruppo', cursive;
+}
+
+
+h2, h3 {
+	font-family: 'Gruppo', cursive;
+	color: #B51F09;
+}
+
+.menu {
+	color: #5C1010;
+	font-family: 'Coda', cursive;
+	font-size: 20px;
+}
+
+.card-img-top-logo {
+	max-height: 150px;
+}
+
+.card-col-3-work{
+
+}
+
+ul li {
+	list-style: none;
+}
+
+.cert {
+	font-size: 5px;
+}

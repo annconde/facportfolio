@@ -1,0 +1,149 @@
+
+*{
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+background-image: url(../images/portfolio.jpeg);
+background-size: contain;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-position: center;
+background-attachment: fixed;
+/*font-family: 'Roboto', cursive;*/
+}
+
+h1 {
+	color: blue;
+	font-size: 50px;
+	font-weight: normal;
+	margin-bottom: 0:;
+}
+
+h2 {
+	color: black;
+	font-size: 40px;
+	margin-top: 0;
+	font-weight: normal;
+	font-family: 'Galada', cursive;
+}
+
+
+.bio {
+	color: green;
+	font-size: 24px;
+	padding: 10 10 0 10px;
+	text-align: justify;
+}
+
+.me {
+height: 150px;
+width: 150px;
+border-radius: 100%;
+border-style:  solid;
+border-color: green;
+margin-top: 40px;
+
+}
+
+.about {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+.image-logo {
+	width: 120px;
+	height: 60px;
+}
+
+.image-logo-large {
+	width: 160px;
+	height: 60px;
+}
+
+
+.item-work {
+	padding: 10px 0 10px 10px;
+}
+
+.item-work small {
+	color: black;
+	font-size: 18px;
+}
+
+.list-group-item {
+    padding: 0;
+}
+
+.list-group-item.active {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#achievements {
+	padding-top: 10px;
+}
+
+#achievements ul {
+	list-style-type: none;
+}
+
+#achievements ul li {
+	padding: 10px;
+}
+
+#achievements ul li small {
+	font-size: 16px;
+}
+
+#presentation {
+	padding: 10px;
+}
+
+/*extra small devices (portrait phones, less than 576px*/
+@media (max-width: 575.98) {
+
+}
+
+
+/*small devices (landscape phones. 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+.col-sm-4 {
+	margin-top: 200px;
+}
+}
+
+/*medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.col-sm-4 {
+	margin-top: 200px;
+}
+}
+
+
+/*large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.col-sm-4 {
+	margin-top: 200px;
+}
+}
+
+
+/*extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.col-sm-4 {
+	margin-top: 200px;
+}
+}
+
+
+
+
+
